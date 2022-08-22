@@ -12,7 +12,7 @@ app.use(express.static('public'))
 
 //Set view pug template engine
 app.set('views','./views')
-app.set('view engine','pug')
+app.set('view engine','ejs')
 
 //Register route:http://localhost:4000/
 app.get('/',(req,res)=>{
